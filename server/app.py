@@ -12,7 +12,7 @@ app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
 db = SQLAlchemy(app)
 
-client = Groq(api_key="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")
+client = Groq(api_key="")
 
 with app.app_context():
     db.create_all()
